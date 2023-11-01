@@ -34,6 +34,5 @@ public class Livro {
     private Year anopublicacao;
     private int copiasdisponiveis;
     @ManyToOne
-    @JoinColumn(name = "id_autor")
     private Autor autor;
 }

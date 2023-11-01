@@ -1,0 +1,1 @@
+ALTER TABLE livro ADD CONSTRAINT fk_livro FOREIGN KEY ( autor ) REFERENCES  autor( id ) ;

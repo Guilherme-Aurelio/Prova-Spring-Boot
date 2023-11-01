@@ -4,5 +4,5 @@ create table emprestimo (
   datadevolucao datetime not null,
   livroemprestado varchar(100) not null,
   id_usuario int not null,
-  FOREIGN KEY (id_usuario) REFERENCES usuario(id),
+  FOREIGN KEY (id_usuario) REFERENCES usuario(id)
   );

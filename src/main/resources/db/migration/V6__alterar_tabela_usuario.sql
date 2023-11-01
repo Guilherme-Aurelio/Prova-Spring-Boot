@@ -1,0 +1,1 @@
+ALTER TABLE usuario ADD CONSTRAINT fk_usuario FOREIGN KEY ( lista_emprestimos ) REFERENCES  emprestimo( id ) ;
